@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: flash_tool_11
+  annotations:
+    github.com/project-slug: nesport/flash_tool_1
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Team B
