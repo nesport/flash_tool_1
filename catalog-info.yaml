@@ -1,12 +1,38 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: flash_tool_11
+  namespace: default
   annotations:
-    github.com/project-slug: nesport/flash_tool_1
+    backstage.io/managed-by-location: file:D:\Dev\Backstage_Test\backstage-1.50.3\packages\catalog-model\examples\components\petstore-component.yaml
+    backstage.io/managed-by-origin-location: file:D:\Dev\Backstage_Test\backstage-1.50.3\packages\catalog-model\examples\all.yaml
+  name: FLASHTOOL
+  description: >
+    [The Petstore](http://petstore.example.com) is an example API used to show
+    features of the OpenAPI spec.
+
+    - First item
+
+    - Second item
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+  uid: a82b961a-471d-4cbb-82e3-9ae50be8219a
+  etag: 0222fd428b5434efd9ccf889aee201a8c751a632
+relations:
+  - type: ownedBy
+    targetRef: group:default/team-c
+  - type: providesApi
+    targetRef: api:default/hello-world
+  - type: providesApi
+    targetRef: api:default/petstore
+  - type: providesApi
+    targetRef: api:default/streetlights
 spec:
-  type: other
-  lifecycle: unknown
-  owner: Team B
-  providesApis: 
-    - artist-api
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - hello-world
+    - petstore
+    - streetlights
