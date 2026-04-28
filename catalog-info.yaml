@@ -29,8 +29,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-c
-  # providesApis:
-  #   - hello-world
-  #   - petstore
-  #   - streetlights
+  owner: EF
