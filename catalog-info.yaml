@@ -3,11 +3,9 @@ kind: Component
 metadata:
   namespace: default
   annotations:
-    backstage.io/managed-by-location: file:D:\Dev\Backstage_Test\backstage-1.50.3\packages\catalog-model\examples\components\petstore-component.yaml
-    backstage.io/managed-by-origin-location: file:D:\Dev\Backstage_Test\backstage-1.50.3\packages\catalog-model\examples\all.yaml
   name: FLASHTOOL
   description: >
-    [The Petstore](http://petstore.example.com) is an example API used to show
+    [The Petstore](http://petstore.example.com) is an example API used to showWDQDWQW
     features of the OpenAPI spec.
 
     - First item
@@ -17,8 +15,8 @@ metadata:
     - url: https://github.com/swagger-api/swagger-petstore
       title: GitHub Repo
       icon: github
-  uid: a82b961a-471d-4cbb-82e3-9ae50be8219a
-  etag: 0222fd428b5434efd9ccf889aee201a8c751a632
+  uid: a82b961a-471d-4cbb-82e3-9ae50be8213
+  etag: 0222fd428b5434efd9ccf889aee201a8c751131
 # relations:
 #   - type: ownedBy
 #     targetRef: group:default/team-c
@@ -32,7 +30,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-c
-  providesApis:
-    - hello-world
-    - petstore
-    - streetlights
+  # providesApis:
+  #   - hello-world
+  #   - petstore
+  #   - streetlights
