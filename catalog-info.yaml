@@ -8,4 +8,5 @@ spec:
   type: other
   lifecycle: unknown
   owner: Team B
-  providesApis: artist-api
+  providesApis: 
+   [artist-api]
