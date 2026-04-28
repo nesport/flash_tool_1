@@ -19,15 +19,15 @@ metadata:
       icon: github
   uid: a82b961a-471d-4cbb-82e3-9ae50be8219a
   etag: 0222fd428b5434efd9ccf889aee201a8c751a632
-relations:
-  - type: ownedBy
-    targetRef: group:default/team-c
-  - type: providesApi
-    targetRef: api:default/hello-world
-  - type: providesApi
-    targetRef: api:default/petstore
-  - type: providesApi
-    targetRef: api:default/streetlights
+# relations:
+#   - type: ownedBy
+#     targetRef: group:default/team-c
+#   - type: providesApi
+#     targetRef: api:default/hello-world
+#   - type: providesApi
+#     targetRef: api:default/petstore
+#   - type: providesApi
+#     targetRef: api:default/streetlights
 spec:
   type: service
   lifecycle: experimental
