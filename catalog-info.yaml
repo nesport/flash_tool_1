@@ -20,3 +20,5 @@ spec:
   type: library
   owner: CNCF
   lifecycle: production
+  providesApis:
+    - petstore-api2
