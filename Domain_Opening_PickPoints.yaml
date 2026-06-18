@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Opening_PickPoints
+  description: Everything about pvz opening
+spec:
+  owner: PVZ_Management
+  subdomainOf: Management_PickPoints
