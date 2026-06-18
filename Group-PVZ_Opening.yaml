@@ -6,4 +6,4 @@ metadata:
 spec:
   type: team
   children: []
-  members: []
+  parent: "PVZ_Management"
