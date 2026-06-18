@@ -5,6 +5,5 @@ metadata:
   description: Открытие ПВЗ
 spec:
   type: team
-  parent: ''
   children: []
   members: []
