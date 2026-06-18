@@ -6,4 +6,4 @@ metadata:
 spec:
   owner: PVZ_Opening
   domain: Opening_PickPoints
-  parent: '1'
+  parent: "1"
