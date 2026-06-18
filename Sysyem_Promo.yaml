@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Promo
+metadata:
+  name: artist-engagement-portal
+  description: Handy tools to keep artists in the loop
+spec:
+  owner: pvz_opening
+  domain: Opening_PickPoints
