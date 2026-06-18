@@ -1,8 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: Promo portal
-  description: promo system
-spec:
-  owner: pvz_opening
-  domain: Opening_PickPoints
