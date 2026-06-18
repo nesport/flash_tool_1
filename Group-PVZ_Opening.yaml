@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: PVZ_Opening
+  description: Открытие ПВЗ
+spec:
+  type: team
+  children: [PVZ_Management]
